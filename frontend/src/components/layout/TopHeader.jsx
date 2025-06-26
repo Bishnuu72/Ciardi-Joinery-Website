@@ -3,19 +3,19 @@ import logo from "/src/assets/headerlogo.jpg";
 
 const TopHeader = () => {
   return (
-    <div className='top-details'>
+    <div className='top-details bg-dark text-light'>
       <div className="container top-header">
         <div className="top-header-left">
-            <li><i class="fa-brands fa-facebook-f"></i></li>
-            <li><i class="fa-brands fa-instagram"></i></li>
-            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i className="fa-brands fa-facebook-f"></i></li>
+            <li><i className="fa-brands fa-instagram"></i></li>
+            <li><i className="fa-brands fa-twitter"></i></li>
         </div>
         <div className="top-header-center">
             <div className='logo-img'><img src={logo} alt="top-header logo" /></div>
             <div className="logo-title1">Ciardi</div>
             <div className="logo-title2">Joinery</div>
         </div>
-        <div className="top-header-right"><i class="fa-solid fa-phone"></i> Call: 0450 455 724</div>
+        <div className="top-header-right"><i className="fa-solid fa-phone"></i> Call: 0450 455 724</div>
       </div>
     </div>
   )

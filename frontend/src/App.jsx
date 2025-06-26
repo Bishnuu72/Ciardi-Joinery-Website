@@ -13,7 +13,6 @@ import ContactUs from './components/pages/ContactUs';
 import TopHeader from './components/layout/TopHeader';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

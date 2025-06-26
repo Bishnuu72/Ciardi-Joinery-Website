@@ -8,7 +8,7 @@
 
 .top-details {
   background: #000;
-  padding: 20px 0px;
+  padding: 5px 0px;
 }
 
 .top-header-left {
@@ -16,6 +16,7 @@
   list-style: none;
   gap: 15px;
   font-size: 25px;
+  cursor: pointer;
 }
 
 .top-header-center img {
@@ -41,6 +42,7 @@
 .top-header-right {
   font-weight: bold;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .top-header-right i {
@@ -61,5 +63,232 @@
   justify-content: center;
   gap: 35px;
   padding: 25px;
-  background: aqua;
+  background: #fff;
+  margin: auto;
+}
+
+/* .header-details {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  margin-bottom: 7px;
+} */
+
+/* Hero-section css */
+.hero-section img{
+  width: 100%;
+}
+
+.hero-section {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-title {
+  position: absolute;
+  top: 45%;
+  left: 32%;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 800;
+  font-family: "Bahnschrift SemiBold";
+}
+
+/* Quote section css */
+.quote-section {
+  background-color: #000;
+}
+
+.quote-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+.quote-details p {
+  margin: auto;
+  font-size: large;
+}
+
+.quote-btn button {
+  background: rgb(251, 47, 1);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+/* Features-section Css */
+.features-section {
+  padding: 50px 0px;
+}
+.features-details {
+  text-align: center;
+  background: #1fd166;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: large;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.features-icon {
+  color: #fff;
+  background: rgb(243, 76, 21);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  cursor: pointer;
+}
+
+.features-title {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* About Us Section CSS */
+.about-img img {
+  width: 100%;
+}
+
+.about-img {
+  position: relative;
+  display: inline-block;
+}
+
+.about-years {
+  position: absolute;
+  bottom: 0%;
+  left: 45%;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  background: rgb(252, 95, 4);
+  padding: 10px 20px;
+}
+
+.about-years p {
+  text-align: center;
+  line-height: 0.5;
+}
+
+.abt-8plus {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.abt-8 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.abt-plus {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.about-details {
+  text-align: center;
+  padding: 50px 100px;
+  /* background: yellow; */
+}
+
+.abt-title p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.abt-title span {
+  color: red;
+}
+
+.abt-btn {
+  padding: 8px 14px;
+  background: rgb(251, 47, 1);
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+
+/* Services section css */
+.services-section h4 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Bahnschrift SemiBold";
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.services-section span {
+  color: red;
+}
+
+.services-details img {
+  width: 100%;
+}
+
+.services-details{
+  margin-bottom: 30px;
+}
+
+.service-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 50px 0px 50px;
+}
+
+.service-desc {
+  text-align: center;
+  padding: 0px 50px 0px 50px;
+}
+
+.service-btn {
+  text-align: center;
+  padding: 20px 50px 30px 50px;
+}
+
+.serv-btn {
+  padding: 8px 12px;
+  background: rgb(251, 47, 1);
+  border: none;
+  border-radius: 5px;
+}
+
+.services-button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/* Testimonials Section Css */
+
+
+
+
+/* Projects Section CSS */
+.projects-section {
+  padding: 50px 0px;
+}
+
+.projects-section img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.projects-section h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.projects-section span {
+  color: rgb(251, 47, 1);
 }
