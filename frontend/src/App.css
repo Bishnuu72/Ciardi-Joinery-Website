@@ -276,7 +276,7 @@
 
 /* Projects Section CSS */
 .projects-section {
-  padding: 50px 0px;
+  padding: 40px 0px;
 }
 
 .projects-section img {
@@ -297,6 +297,18 @@
   padding: 0px;
 }
 
+.project-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.project-btn {
+  background: red;
+  border: none;
+  text-align: center;
+  padding: 8px 15px;
+  color: #fff;
+}
 
 /* Footer section css */
 .footer-section {

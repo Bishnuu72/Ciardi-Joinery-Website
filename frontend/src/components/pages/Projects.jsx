@@ -36,6 +36,9 @@ const Projects = () => {
             )
           })}
         </div>
+        <div className="project-button">
+          <button className="project-btn">View All Works</button>
+        </div>
       </div>
     </div>
   )
