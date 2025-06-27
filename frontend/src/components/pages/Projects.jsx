@@ -30,7 +30,7 @@ const Projects = () => {
         <div className="row">
           {projects.map((item, index) => {
             return (
-              <div className="col-md-6" key={index}>
+              <div className="col-md-6 img-fix" key={index}>
                 <img src={item.img} alt="projects images" />
               </div>
             )

@@ -281,7 +281,7 @@
 
 .projects-section img {
   width: 100%;
-  margin-top: 20px;
+  height: 477px;
 }
 
 .projects-section h3 {
@@ -291,4 +291,163 @@
 
 .projects-section span {
   color: rgb(251, 47, 1);
+}
+
+.img-fix {
+  padding: 0px;
+}
+
+
+/* Footer section css */
+.footer-section {
+  padding: 50px 0px 10px 0px;
+  background: #000;
+  color: #fff;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 15px;
+  color: #fff;
+}
+
+.footer-fb-icon {
+  background: #4267b2;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+.footer-insta-icon {
+  background: #f46f30;
+  padding: 3px 7px;
+  border-radius: 3px;
+}
+
+.footer-twitter-icon {
+  background: #38A1F3;
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+
+.footer1-details h3, .footer3-details h3, .footer4-details h3 {
+  margin-bottom: 20px;
+}
+
+ .footer2-details h3 {
+  margin-bottom: 15px;
+ }
+
+.footer1-details p {
+  margin-bottom: 20px;
+}
+
+.footer2-links {
+  color: red;
+}
+
+.footer2-links a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 35px;
+}
+
+/* .touch-details {
+  display: flex;
+  gap: 18px;
+} */
+
+.touch-text1, .touch-text2, .touch-text3 {
+  display: flex;
+  gap: 18px;
+}
+
+.touch-text1 i {
+  color: red;
+  font-size: 23px;
+  margin-top: 8px;
+}
+
+.touch-text2 i {
+  color: red;
+  font-size: 23px;
+  margin-top: 3px;
+}
+
+.touch-text3 i {
+  color: red;
+  font-size: 23px;
+  margin-top: 5px;
+}
+
+.touch-text4 {
+  margin-left: 43px;
+}
+
+.business-hour {
+  display: flex;
+  gap: 50px;
+}
+
+.business-hour p {
+  line-height: 20px;
+}
+
+.copyright-details p {
+  margin: auto;
+  text-align: center;
+}
+
+
+
+/* Conatct page Css */
+.contact-section img {
+  width: 100%;
+}
+
+.fix-border {
+  padding: 0px;
+}
+
+.contact-details {
+  background: red;
+  padding: 40px 30px 40px 30px;
+  color: #fff;
+}
+
+.contact-name, .contact-phone, .contact-email, .contact-message {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.contact-name, .contact-phone, .contact-email, input {
+  width: 95%;
+}
+
+.contact-message textarea {
+  width: 90%;
+  height: 91px;
+}
+
+.contact-btn {
+  margin-top: 20px;
+}
+
+.cont-btn {
+  border: none;
+  padding: 8px 0px;
+  width: 90%;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+}
+
+.contact-title {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-title span {
+  font-size: 32px;
+  margin-top: 10px;
 }
