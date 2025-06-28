@@ -5,7 +5,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 const ContactUs = () => {
   return (
     <div>
-      <section className="contact-section">
+      <div className="contact-section">
         <div className="row">
           <div className="col-md-6 fix-border">
             <img src={img} alt="contact image" />
@@ -37,7 +37,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   )
 }
