@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-4">
               <div className="footer1-details">
-                <h3>About Us</h3>
+                <h3>Ciardi Joinery</h3>
                 <p>We listen to your ideas, understand your needs, and work closely with you to deliver custom woodwork that exceeds your expectations.</p>
                 <div className="footer-social-icons">
                   <p className='footer-fb-icon'><i class="fa-brands fa-facebook-f"></i></p>

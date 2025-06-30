@@ -3,7 +3,7 @@ import logo from "/src/assets/headerlogo.jpg";
 
 const TopHeader = () => {
   return (
-    <div className='top-details bg-dark text-light'>
+    <div className='top-details'>
       <div className="container top-header">
         <div className="top-header-left">
             <li><i className="fa-brands fa-facebook-f"></i></li>
@@ -15,7 +15,7 @@ const TopHeader = () => {
             <div className="logo-title1">Ciardi</div>
             <div className="logo-title2">Joinery</div>
         </div>
-        <div className="top-header-right"><i className="fa-solid fa-phone"></i> Call: 0450 455 724</div>
+        <div className="top-header-right">Call: 0450 455 724</div>
       </div>
     </div>
   )

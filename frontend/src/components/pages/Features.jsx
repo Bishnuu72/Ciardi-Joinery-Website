@@ -3,16 +3,19 @@ import React from 'react'
 const Features = () => {
     const features = [
         {
+            "_id": 1,
             "title": "Custom Designs",
             "desc": "We specialize in creating bespoke joinery pieces tailored to your unique vision and style.",
             "icon": "fa-solid fa-ruler-combined"
         },
         {
+            "_id": 2,
             "title": "High-Quality Materials",
             "desc": "We use only the finest timber and materials to create durable and long-lasting products.",
             "icon": "fa-solid fa-tree"
         },
         {
+            "_id": 3,
             "title": "Experience Professional",
             "desc": "Our skilled joiners give years of experience and joy to each project, resulting in unique quality.",
             "icon": "fa-solid fa-user-gear"

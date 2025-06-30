@@ -23,8 +23,8 @@ const AboutUs = () => {
               <p>CIARDI <span>JOINERY</span></p>
               </div>
               <div className="about-content">
-                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sed laboriosam distinctio temporibus, similique et error soluta autem corporis explicabo dignissimos ut. Corrupti culpa sapiente, pariatur magnam cum tenetur. Eius?</b></p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolores temporibus possimus. Nam tempore, nobis fugiat ipsam asperiores iste numquam sit facere nemo aliquam doloribus libero eveniet excepturi voluptatibus sapiente.</p>
+                <p><b>Ciardi Joinery is a small company in the Hawkesbury recently opened and is quickly making Positive approach to quality over quantity.</b></p>
+                <p>At <b>Ciardi Joinery,</b> we redefine craftsmanship for the modern age. With a blend of traditional techniques and cutting-edge technology, we create bespoke joinery solutions that are both innovative and timeless, with a mission to provide exceptional joinery services that combine quality, creativity, and functionality. Today, we're proud to be industry leaders, known for cut precision, attention to detail, and commitment to excellence.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sunt nesciunt sapiente unde cum aut ea consequuntur quae. Voluptates eum doloribus nisi officia recusandae quas unde mollitia ipsam. Enim, quas.</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur fugit natus maiores, quod provident suscipit minus inventore deleniti dolorem commodi consectetur dolore error odit dignissimos, quibusdam exercitationem laborum consequuntur id!</p>
               </div>
